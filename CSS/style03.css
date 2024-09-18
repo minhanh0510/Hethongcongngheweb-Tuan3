@@ -1,0 +1,153 @@
+.khung{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    border: black 1px solid;
+    ;
+    
+}
+header{
+    margin-top: -33px;
+    height: 80px;
+    background-color: #b04c14;
+    color: rgb(89, 213, 40);
+    line-height: 80px;
+    padding-left: 30px;
+    text-shadow: -10px -10px 6px white;
+}
+header h1{
+    font-size: 50px;
+}
+.menu{
+    
+    height: 45px;
+    background-color: #f5e6dd;
+    border: black 1px solid;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    
+}
+.menu ul li{
+    margin-right: 30px;
+}
+.menu ul li a{
+    text-decoration: none ;
+    color: #b04c14;
+    font-size: 25px;
+}
+.img{
+    
+    border-top: 4px grey solid;
+    background-image: url(../IMAGE/line1.png);
+    height: 109px;
+}
+
+main{
+    background-color: #fffffb;
+    height: 550px;
+    display: flex;
+}
+article{
+    width: 70%;
+    
+    padding: 10px;
+}
+aside{
+    width: 30%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+article h2{
+    font-size: 30px;
+    color: #818a20;
+}
+article p{
+    font-size: 20px;
+    color: #818a20;
+    font-weight: bold;
+    font-style: italic;
+    padding-left: 40px;
+}
+form{
+    display: flex;
+    padding-left: 40px;
+    flex-direction: column;
+    
+
+}
+form input[type="text"]{
+    height: 50px;
+    width: 980px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #797973;
+    border-top:none ;
+    border-left: none;
+    border-right: none;
+}
+form input[type="button"]{
+    width: 180px;
+    height: 50px;
+    background-color: #4c5419;
+    color: #f8f4f4;
+    border: none;
+}
+aside nav{
+    padding: 10px;
+    background-color: #ffecd4;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+aside nav h2{
+    font-size: 30px;
+    color: #734723;
+}
+aside nav ul{
+    padding-left: 80px;
+}
+aside nav ul li{
+    list-style: square;
+    margin-bottom: 20px;
+}
+aside nav ul li a{
+    
+    font-size: 20px;
+    color: #cf1b1b;
+}
+aside h2{
+    color: #734723;
+    font-size: 30px;
+}
+aside p img{
+    width: 90px;
+    height: 60px;
+    float: left;
+    border: 15px solid whitesmoke; 
+    margin-right: 10px;
+}
+
+aside p a{
+    font-size: 21px;
+    color: #0c0c0c;
+    text-align: justify;
+   
+}
+footer {
+    height: 70px; /* Adjust the height as needed */
+    background-image: url('../IMAGE/footer.png'); /* Link to your leaf image */
+    background-repeat: repeat-x; /* Repeat horizontally */
+    background-position: bottom; /* Align the background to the bottom */
+    background-size: contain; /* Adjust the size of the leaves */
+}
+
+
+footer p{
+    
+    height: 50px;
+    font-size: 25px;
+    color: #010101;
+    line-height: 50px;
+    text-align: center;
+}
